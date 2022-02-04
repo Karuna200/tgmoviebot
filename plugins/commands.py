@@ -44,7 +44,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Add Me To Your Group🚶🏻‍♂️>50 Memebers', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Settings⛔', callback_data='help'),
+            InlineKeyboardButton('Settings ⛔', callback_data='help'),
             InlineKeyboardButton('New Releases🔥', url='https://t.me/+Xy0PchIfiY84MWM1')
             ],[
             InlineKeyboardButton('Must Join Main Channel⚡', url='https://t.me/tvseriescw')
@@ -52,7 +52,7 @@ async def start(client, message):
             InlineKeyboardButton('Series Group✨', url='https://t.me/cw_tv_series'),
             InlineKeyboardButton('Movie Group✨', url='https://t.me/heavenofmovies')
             ],[
-            InlineKeyboardButton('Support Group', url='close_data')
+            InlineKeyboardButton('Support Group', url='https://t.me/TVSeriesCW_group')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -72,7 +72,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Channel To Use Me", url=invite_link.invite_link
+                    "🤖 Join  Channel To Use Me", url=invite_link.invite_link
                 )
             ]
         ]
@@ -99,7 +99,7 @@ async def start(client, message):
             InlineKeyboardButton('Series Group✨', url='https://t.me/cw_tv_series'),
             InlineKeyboardButton('Movie Group✨', url='https://t.me/heavenofmovies')
             ],[
-            InlineKeyboardButton('✗ TVSeriesCW ✗', callback_data='https://t.me/tvseriescw_group')
+            InlineKeyboardButton('✗ ', uyhuuu='https://t.me/tvseriescw_group')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
