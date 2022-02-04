@@ -25,7 +25,7 @@ async def start(client, message):
                 InlineKeyboardButton('Main Channel ⚡', url='https://t.me/tvseriescw')
             ],
             [
-                InlineKeyboardButton('Settings⛔', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('Settings ⛔', url=f"https://t.me/{temp.U_NAME}?start=help"),
                 InlineKeyboardButton('Close ✗', callback_data="close_data"),
             ]
             ]
@@ -52,7 +52,7 @@ async def start(client, message):
             InlineKeyboardButton('Series Group✨', url='https://t.me/cw_tv_series'),
             InlineKeyboardButton('Movie Group✨', url='https://t.me/heavenofmovies')
             ],[
-            InlineKeyboardButton('✗ TVSeriesCW ✗', callback_data='close_data')
+            InlineKeyboardButton('Support Group', url='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -99,7 +99,7 @@ async def start(client, message):
             InlineKeyboardButton('Series Group✨', url='https://t.me/cw_tv_series'),
             InlineKeyboardButton('Movie Group✨', url='https://t.me/heavenofmovies')
             ],[
-            InlineKeyboardButton('✗ TVSeriesCW ✗', callback_data='close_data')
+            InlineKeyboardButton('✗ TVSeriesCW ✗', callback_data='https://t.me/tvseriescw_group')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
