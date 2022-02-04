@@ -5,7 +5,7 @@ My name is <a href=https://t.me/{}>{}</a>!
 
 <b>I can provide Movies And Series , Its Easy To Use Me :)
 
-Just Add me to Your Group As Admin, Your Group Needs To Have More Than 50 Members, If You Don't Then Use @TVSeriesCW Group To Get Movies And Series </b>"""
+Just Add me to Your Group As Admin, Your Group Needs To Have More Than 50 Members, If You Don't Then Use @Cw_TV_Series And @HeavenOfMovies Group To Get Movies And Series </b>"""
 
     HELP_TXT = """Hey {}
 
