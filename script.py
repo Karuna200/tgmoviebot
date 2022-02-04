@@ -3,9 +3,9 @@ class Script(object):
 
 My name is <a href=https://t.me/{}>{}</a>!
 
-<b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
+<b>I can provide Movies And Series , Its Easy To Use Me :)
 
-Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
+Just Add me to Your Group As Admin, Your Group Needs To Have More Than 50 Members, If You Don't Then Use @TVSeriesCW Group To Get Movies And Series </b>"""
 
     HELP_TXT = """Hey {}
 
@@ -21,20 +21,20 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 
     SOURCE_TXT = """<b>Source:</b>
 IMDb is a Open source project.
-Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
+Source: <a href='https://github.com/tvseriescw_group'>Telegram Group - Click here 👈</a>
 
 <b>DEVS:</b>
-- <a href='https://t.me/josprojects'>Jos Projects</a>
+- <a href='https://t.me/TVSeriesCW'>Telegram Channel</a>
 
 <b>SUPPORT GROUP</b>
-- <a href='https://t.me/+y53tWFUw6Q43NzE9'>Jos Movie Club</a>"""
+- <a href='https://t.me/TVSeriesCW_Group'>Movie Group</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. IMDb should have admin privillage.
+1. Bot should have admin privillage.
 2. Only admins can add filters in a chat.
 3. Alert buttons have a limit of 64 characters.
 
@@ -54,7 +54,7 @@ Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/josprojects)</code>
+<code>[Button Text](buttonurl:https://t.me/TVSeriesCW)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
