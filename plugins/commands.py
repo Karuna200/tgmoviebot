@@ -72,7 +72,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join  Channel To Use Me", url=invite_link.invite_link
+                    "🤖 Join Main Channel To Use Me", url=invite_link.invite_link
                 )
             ]
         ]
@@ -99,7 +99,7 @@ async def start(client, message):
             InlineKeyboardButton('Series Group✨', url='https://t.me/cw_tv_series'),
             InlineKeyboardButton('Movie Group✨', url='https://t.me/heavenofmovies')
             ],[
-            InlineKeyboardButton('✗ ', uyhuuu='https://t.me/tvseriescw_group')
+            InlineKeyboardButton('Support Group', url='https://t.me/tvseriescw_group')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -139,11 +139,11 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-                    InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+                    InlineKeyboardButton('Support', url='https://t.me/TVSeriesCW_group'),
+                    InlineKeyboardButton('Main Channel', url='https://t.me/TVSeriesCW')
                 ],
                 [
-                    InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                    InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/TVSeriesCW')
                 ]
                 ]
             try:
