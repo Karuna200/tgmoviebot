@@ -5,7 +5,7 @@ class Script(object):
 
 I Can Provide Movies And Series , Its Easy To Use Me :)
 
-Just Add Me To Your Group As Admin, Your Group Needs To Have More Than 50 Members, If You Don't Then Use [This Group](https://t.me/Cw_TV_Series) To Get Movies And Series </b>"""
+Just Add Me To Your Group As Admin, Your Group Needs To Have More Than 50 Members, If You Don't Then Use Below Groups</b>"""
 
     HELP_TXT = """Hey {}
 
